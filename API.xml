@@ -1,0 +1,225 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>asp net db</name>
+    </assembly>
+    <members>
+        <member name="M:asp_net_db.Controllers.ContentController.GetContent(System.Int32,System.String)">
+            <summary>
+            Получить контент
+            </summary>
+        </member>
+        <member name="M:asp_net_db.Controllers.ContentController.AllContent(System.Int32,System.String)">
+            <summary>
+            Получить контент по курсу
+            </summary>
+        </member>
+        <member name="M:asp_net_db.Controllers.ContentController.AddContent(asp_net_db.Models.Dto.ContentDto,System.Int32,System.String)">
+            <summary>
+            Добавить контент
+            </summary>
+        </member>
+        <member name="M:asp_net_db.Controllers.CourseController.InviteUser(System.Int32,System.String)">
+            <summary>
+            Добавить в курс по гуид (ссылке)
+            </summary>
+        </member>
+        <member name="M:asp_net_db.Controllers.CourseController.GetInvite(System.Int32,System.String)">
+            <summary>
+            Получить invite/guid курса для инвайта
+            </summary>
+        </member>
+        <member name="M:asp_net_db.Controllers.CourseController.AddTrack(System.Int32,System.String)">
+            <summary>
+            Массив всех курсов преподавателя
+            </summary>
+        </member>
+        <member name="M:asp_net_db.Controllers.CourseController.GetCourse(System.Int32,System.String)">
+            <summary>
+            Получить курс
+            </summary>
+        </member>
+        <member name="M:asp_net_db.Controllers.CourseController.AllUserCourses(System.Int32,System.String)">
+            <summary>
+            Все курсы пользователя
+            </summary>
+        </member>
+        <member name="M:asp_net_db.Controllers.CourseController.AddCourse(asp_net_db.Models.Dto.CourseDto,System.String)">
+            <summary>
+            Добавить курс
+            </summary>
+        </member>
+        <member name="M:asp_net_db.Controllers.CourseController.DeleteCourse(System.Int32,System.String)">
+            <summary>
+            Удалить (мягко) курс
+            </summary>
+        </member>
+        <member name="M:asp_net_db.Controllers.HomeworkController.GetHomework(System.Int32,System.String)">
+            <summary>
+            Получить дз по ид
+            </summary>
+        </member>
+        <member name="M:asp_net_db.Controllers.HomeworkController.AddHomework(asp_net_db.Models.Dto.HomeworkDto,System.Int32,System.Int32,System.String)">
+            <summary>
+            Добавить дз
+            </summary>
+        </member>
+        <member name="M:asp_net_db.Controllers.HomeworkController.AddSuggest(asp_net_db.Models.Dto.SuggestHomeworkDto,System.Int32,System.Int32,System.String)">
+            <summary>
+            Добавить решение дз
+            </summary>
+        </member>
+        <member name="M:asp_net_db.Controllers.HomeworkController.AddChech(asp_net_db.Models.Dto.CheckHomeworkDto,System.Int32,System.String)">
+            <summary>
+            Добавить проверку дз
+            </summary>
+        </member>
+        <member name="M:asp_net_db.Controllers.HomeworkController.GetSolved(System.Int32,System.String)">
+            <summary>
+            Получить решение дз
+            </summary>
+        </member>
+        <member name="M:asp_net_db.Controllers.LessonController.GetLesson(System.Int32,System.String)">
+            <summary>
+            Получить занятие
+            </summary>
+        </member>
+        <member name="M:asp_net_db.Controllers.LessonController.CanEnter(System.Int32,System.Int32,System.String)">
+            <summary>
+            Может ли пройти курс юзер
+            </summary>
+        </member>
+        <member name="M:asp_net_db.Controllers.LessonController.GetScript(System.Int32,System.String)">
+            <summary>
+            Получить сценарий занятия
+            </summary>
+        </member>
+        <member name="M:asp_net_db.Controllers.LessonController.EditScript(System.Int32,System.String,System.String)">
+            <summary>
+            Изменить сценарий занятия
+            </summary>
+        </member>
+        <member name="M:asp_net_db.Controllers.LessonController.AddLesson(asp_net_db.Models.Dto.LessonDto,System.Int32,System.String)">
+            <summary>
+            Создать занятие
+            </summary>
+        </member>
+        <member name="M:asp_net_db.Controllers.LessonController.DeleteLesson(System.Int32,System.String)">
+            <summary>
+            Удалить (мягко) занятие
+            </summary>
+        </member>
+        <member name="M:asp_net_db.Controllers.RepositoryController.GetCourses(System.String,System.Nullable{System.Int32})">
+            <summary>
+            Получить все курсы
+            </summary>
+        </member>
+        <member name="M:asp_net_db.Controllers.TrackerController.AddTrack(System.Int32,System.String)">
+            <summary>
+            Успеваемость (статистика) всех курсов преподавателя
+            </summary>
+        </member>
+        <member name="M:asp_net_db.Controllers.TrackerController.CursesStats(System.Int32,System.String)">
+            <summary>
+            Успеваемость курса
+            </summary>
+        </member>
+        <member name="M:asp_net_db.Controllers.TrackerController.AllTeachersStats(System.String)">
+            <summary>
+            Успеваемость (статистика) всех курсов всех преподавателей
+            </summary>
+        </member>
+        <member name="M:asp_net_db.Controllers.TrackerController.All2TeachersStats(System.String)">
+            <summary>
+            Статистика преподавателей
+            </summary>
+        </member>
+        <member name="M:asp_net_db.Controllers.TrackerController.CourseProgress(System.Int32,System.Int32)">
+            <summary>
+            Прогресс школьника в курсе
+            </summary>
+        </member>
+        <member name="M:asp_net_db.Controllers.TrackerController.AddTrack(asp_net_db.Models.Dto.TrackerDto,System.String)">
+            <summary>
+            Добавить новый результат теста
+            </summary>
+        </member>
+        <member name="M:asp_net_db.Controllers.TrackerController.AllLessonsStats(System.String)">
+            <summary>
+            Получить все уроки для админки
+            </summary>
+        </member>
+        <member name="T:asp_net_db.Migrations.init">
+            <inheritdoc />
+        </member>
+        <member name="M:asp_net_db.Migrations.init.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:asp_net_db.Migrations.init.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:asp_net_db.Migrations.init.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:asp_net_db.Migrations.second">
+            <inheritdoc />
+        </member>
+        <member name="M:asp_net_db.Migrations.second.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:asp_net_db.Migrations.second.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:asp_net_db.Migrations.second.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:asp_net_db.Migrations.hashAdded">
+            <inheritdoc />
+        </member>
+        <member name="M:asp_net_db.Migrations.hashAdded.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:asp_net_db.Migrations.hashAdded.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:asp_net_db.Migrations.hashAdded.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:asp_net_db.Migrations.homework">
+            <inheritdoc />
+        </member>
+        <member name="M:asp_net_db.Migrations.homework.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:asp_net_db.Migrations.homework.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:asp_net_db.Migrations.homework.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:asp_net_db.Migrations.contents">
+            <inheritdoc />
+        </member>
+        <member name="M:asp_net_db.Migrations.contents.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:asp_net_db.Migrations.contents.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:asp_net_db.Migrations.contents.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:asp_net_db.Migrations.homeworkphoto">
+            <inheritdoc />
+        </member>
+        <member name="M:asp_net_db.Migrations.homeworkphoto.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:asp_net_db.Migrations.homeworkphoto.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:asp_net_db.Migrations.homeworkphoto.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+    </members>
+</doc>
